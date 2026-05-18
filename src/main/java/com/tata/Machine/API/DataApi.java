@@ -18,6 +18,10 @@ public class DataApi {
     @Autowired
     private AreaRepository areaRepository;
 
+    @Autowired
+    private PartRepository partRepository;
+
+
     @PostMapping("/machines")
     public Machine addMachine(@RequestBody Machine newMachine) {
         return machineRepository.save(newMachine);
@@ -31,5 +35,10 @@ public class DataApi {
     @PostMapping("/areas")
     public Areas addArea(@RequestBody Areas newArea) {
         return areaRepository.save(newArea);
+    }
+
+    @PostMapping("/parts")
+    public Part addPart(@RequestBody Part newPart) {
+        return partRepository.save(newPart);
     }
 }
