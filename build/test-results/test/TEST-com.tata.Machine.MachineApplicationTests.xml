@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tata.Machine.MachineApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-05-21T03:56:19.061Z" hostname="SUPERBOOK" time="0.762">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.tata.Machine.MachineApplicationTests" time="0.762"/>
+  <system-out><![CDATA[09:26:11.815 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.tata.Machine.MachineApplicationTests]: MachineApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:26:12.012 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.tata.Machine.MachineApplication for test class com.tata.Machine.MachineApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::      (v3.5.15-SNAPSHOT)
+
+2026-05-21T09:26:12.788+05:30  INFO 21624 --- [Machine] [    Test worker] c.tata.Machine.MachineApplicationTests   : Starting MachineApplicationTests using Java 17.0.19 with PID 21624 (started by princ in C:\Users\princ\Desktop\Project Work\Machine)
+2026-05-21T09:26:12.790+05:30  INFO 21624 --- [Machine] [    Test worker] c.tata.Machine.MachineApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-05-21T09:26:13.824+05:30  INFO 21624 --- [Machine] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-21T09:26:13.971+05:30  INFO 21624 --- [Machine] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 4 JPA repository interfaces.
+2026-05-21T09:26:14.738+05:30  INFO 21624 --- [Machine] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-21T09:26:14.853+05:30  INFO 21624 --- [Machine] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.50.Final
+2026-05-21T09:26:14.934+05:30  INFO 21624 --- [Machine] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-21T09:26:15.497+05:30  INFO 21624 --- [Machine] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-21T09:26:15.558+05:30  INFO 21624 --- [Machine] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-21T09:26:16.072+05:30  INFO 21624 --- [Machine] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c9f4376
+2026-05-21T09:26:16.074+05:30  INFO 21624 --- [Machine] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-21T09:26:16.197+05:30  INFO 21624 --- [Machine] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-21T09:26:17.575+05:30  INFO 21624 --- [Machine] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-21T09:26:17.580+05:30  INFO 21624 --- [Machine] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-21T09:26:18.029+05:30  INFO 21624 --- [Machine] [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-21T09:26:18.289+05:30  WARN 21624 --- [Machine] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-21T09:26:19.024+05:30  INFO 21624 --- [Machine] [    Test worker] c.tata.Machine.MachineApplicationTests   : Started MachineApplicationTests in 6.701 seconds (process running for 8.785)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

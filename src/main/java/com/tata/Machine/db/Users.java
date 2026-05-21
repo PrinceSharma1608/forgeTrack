@@ -13,8 +13,9 @@ public class Users {
     public enum UserRole {
         ADMIN,
         SUPERVISOR,
-        MAINTAINER
-    };
+        WORKER,
+        TEAM_LEADER
+    }
     @Id
     @Column(name = "user_tkt")
     private Integer userTkt;
